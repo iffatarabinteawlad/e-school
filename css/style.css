@@ -1,0 +1,949 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}
+li{
+    display: inline-block;
+}
+/* Main code start here */
+.header-banner{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #f0fff0;
+}
+/* **************************
+          header-section-start 
+      ************************** */
+.header-banner .header-section{
+    width: 100%;
+}
+.header-section .header-inner{
+    width: 100%;
+    padding: 10px 0px 50px;
+}
+.header-section .header-inner img{
+    width: 210px;
+}
+.header-section .header-inner .btn-success {
+    color: #000;
+	background-color: #f0fff0;
+	border-color: #f0fff0;
+    font-weight: 401;
+}
+.header-section .header-inner .btn-success:hover {
+	color: #fff;
+	background-color: #21b573;
+    border-color: #21b573;
+}
+.header-section .header-inner .btn{
+	padding: 10px 20px;
+	font-size: 16px;
+    border-radius: 50px;
+}
+/* **************************
+          banner-section-start 
+      **************************  */
+.banner-section{
+    width: 100%;
+    padding: 20px 0px 50px;
+}
+.banner-section .banner-text{
+    width: 100%;
+}
+.banner-text p{
+    color: #fd511a;
+}
+.banner-text h1{
+    font-size: 52px;
+    line-height: 62px;
+}
+.banner-text h1 span{
+    color: #21b573;
+}
+.banner-text p span{
+    color: #6c6b6b;
+    line-height: 30px;
+}
+.banner-text .btn-success {
+    color: #fff;
+	background-color: #21b573;
+    border-color: #21b573;
+    font-weight: 401;
+}
+.banner-text .btn-success:hover {
+	color: #21b573;
+	background-color: #fff;
+    border-color: #21b573;
+}
+.banner-text .btn{
+	padding: 12px 28px;
+	font-size: 16px;
+    border-radius: 50px;
+}
+.banner-section .banner-img{
+    width: 100%;
+}
+.banner-img img{
+    width: 500px;
+}
+/* *****************************
+           slider-section
+    **************************** */
+.slider-section{
+    width: 100%;
+    padding: 40px 0px;
+}
+.slider-section .slider-inner{
+    width: 100%;
+    text-align: center;
+    padding: 30px 10px;
+}
+.slider-section .slider-inner:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.slider-inner img{
+    width: 90px;
+    height: 100px;
+}
+.slider-inner h4{
+    color: #413960;
+    font-size: 25px;
+    line-height: 35px;
+    padding: 50px 0px 0px;
+}
+.slider-inner p{
+    color: #6c6b6b;
+}
+/* ******************************
+    online-courses
+    ********************* */
+.online-courses{
+    width: 100%;
+    padding: 0px 0px 30px;
+}
+.online-courses h1{
+    color: #413960;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0px 50px;
+}
+.online-courses .card-inner{
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+}
+.online-courses .card-inner:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-inner img{
+    width: 318px;
+    padding: 0px 0px 30px;
+}
+.card-inner h2{
+    font-size: 25px;
+    line-height: 35px;
+    color: #413960;
+}
+.card-inner p{
+    color: #6c6b6b;
+}
+.card-inner .icofont-ui-calendar{
+    padding-right: 4px;
+}
+.card-inner .icofont-users-alt-4{
+    padding-right: 4px;
+}
+.card-inner .btn-success {
+    color: #fff;
+	background-color: #21b573;
+    border-color: #21b573;
+}
+.card-inner .btn-success:hover {
+	color: #21b573;
+	background-color: #fff;
+    border-color: #21b573;
+}
+.card-inner .btn{
+	padding: 6px 24px;
+	font-size: 16px;
+    border-radius: 50px;
+}
+.card-inner .card-icon-left{
+    width: 100%;
+    padding: 20px 0px;
+}
+.card-inner .card-icon-right{
+    float: right;
+    width: 100%;
+    padding: 20px 0px 20px 68px;
+}
+.card-inner  a{
+    color: #6c6b6b;
+}
+/* ****************************
+    testominial
+********************* */
+.testominial{
+    width: 100%;
+    padding: 10px 0px 50px;
+}
+.testominial h1{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 700;
+    padding: 10px 0px 50px;
+    text-align: center;
+}
+.testominial img{
+    width: 120px;
+}
+.testominial p{
+    padding: 26px 0px;
+    font-size: 14px;
+    line-height: 24px;
+}
+ /* *****************************
+footer-section
+********************************** */
+.footer-section{
+    width: 100%;
+    padding:10px 0px;
+    background-color: #282531;
+    color: #fff;
+}
+.footer-section .footer-weget{
+    width: 100%;
+    padding: 50px 0px;
+}
+.footer-section .footer-weget a:hover{
+    color: #21b573;
+}
+.footer-section .main-footer{
+    width: 100%;
+    text-align: center;
+}
+
+/* ********************************* ******************
+                responsive code
+***************************** * *********************/
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+    */
+    
+@media (min-width: 320px) and (max-width: 480px) {
+        /* Main code start here */
+    .header-banner{
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #f0fff0;
+    }
+    /* **************************
+            header-section-start 
+        ************************** */
+    .header-banner .header-section{
+        width: 100%;
+    }
+    .header-section .header-inner{
+        width: 100%;
+        padding: 0px;
+    }
+    .header-section .header-inner img{
+        width: 130px;
+    }
+    .header-section .header-inner .navbar-toggler-icon {
+        width: 15px !important;
+        height: 20px !important;
+    }
+    .header-section .header-inner .btn-success {
+        color: #000;
+        background-color: #f0fff0;
+        border-color: #f0fff0;
+        font-weight: 401;
+    }
+    .header-section .header-inner .btn-success:hover {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+    }
+    .header-section .header-inner .btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    /* **************************
+            banner-section-start 
+        **************************  */
+    .banner-section{
+        width: 100%;
+        padding: 10px 0px 10px;
+    }
+    .banner-section .banner-text{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .banner-text p{
+        color: #fd511a;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .banner-text h1 span{
+        color: #21b573;
+    }
+    .banner-text p span{
+        color: #6c6b6b;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner-text .btn-success {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+        font-weight: 401;
+    }
+    .banner-text .btn-success:hover {
+        color: #21b573;
+        background-color: #fff;
+        border-color: #21b573;
+    }
+    .banner-text .btn{
+        padding: 12px 28px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    .banner-section .banner-img{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img img{
+       
+    }
+    /* *****************************
+            slider-section
+        **************************** */
+    .slider-section{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .slider-section .slider-inner{
+        width: 100%;
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .slider-section .slider-inner:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .slider-inner img{
+        width: 25px;
+        height: 35px;
+    }
+    .slider-inner h4{
+        color: #413960;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 15px 0px 0px;
+    }
+    .slider-inner p{
+        color: #6c6b6b;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    /* ******************************
+        online-courses
+        ********************* */
+    .online-courses{
+        width: 100%;
+        padding: 0px 0px 30px;
+    }
+    .online-courses h1{
+        color: #413960;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        text-align: center;
+        padding: 7px 0px 25px;
+    }
+    .online-courses .card-inner{
+        width: 100%;
+        padding: 16px;
+        border-radius: 10px;
+    }
+    .online-courses .card-inner:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-inner img{
+        padding: 0px 0px 30px;
+    }
+    .card-inner h2{
+        font-size: 25px;
+        line-height: 35px;
+        color: #413960;
+    }
+    .card-inner p{
+        color: #6c6b6b;
+    }
+    .card-inner .icofont-ui-calendar{
+        padding-right: 4px;
+    }
+    .card-inner .icofont-users-alt-4{
+        padding-right: 4px;
+    }
+    .card-inner .btn-success {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+    }
+    .card-inner .btn-success:hover {
+        color: #21b573;
+        background-color: #fff;
+        border-color: #21b573;
+    }
+    .card-inner .btn{
+        padding: 6px 20px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+    .card-inner .card-icon-left{
+        width: 100%;
+        padding: 8px 0px 8px 8px;
+    }
+    .card-inner .card-icon-right{
+        float: right;
+        width: 100%;
+        padding: 8px 0px 8px 8px;
+    }
+    .card-inner  a{
+        color: #6c6b6b;
+    }
+    /* ****************************
+        testominial
+    ********************* */
+    .testominial{
+        width: 100%;
+        padding: 10px 0px 50px;
+        text-align: center;
+    }
+    .testominial h1{
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        padding: 5px 0px 25px;
+        text-align: center;
+    }
+    .testominial p{
+        padding: 10px 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* *****************************
+    footer-section
+    ********************************** */
+    .footer-section{
+        width: 100%;
+        padding:10px 0px;
+        background-color: #282531;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-section .footer-weget{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .footer-section .footer-weget a:hover{
+        color: #21b573;
+    }
+    .footer-section .main-footer{
+        width: 100%;
+        text-align: center;
+    }
+}
+    /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+    */
+    
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Main code start here */
+    .header-banner{
+        width: 100%;
+        padding: 20px 0px;
+        background-color: #f0fff0;
+    }
+    /* **************************
+            header-section-start 
+        ************************** */
+    .header-banner .header-section{
+        width: 100%;
+    }
+    .header-section .header-inner{
+        width: 100%;
+        padding: 0px;
+    }
+    .header-section .header-inner img{
+        width: 130px;
+    }
+    .header-section .header-inner .navbar-toggler-icon {
+        width: 15px !important;
+        height: 20px !important;
+    }
+    .header-section .header-inner .btn-success {
+        color: #000;
+        background-color: #f0fff0;
+        border-color: #f0fff0;
+        font-weight: 401;
+    }
+    .header-section .header-inner .btn-success:hover {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+    }
+    .header-section .header-inner .btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    /* **************************
+            banner-section-start 
+        **************************  */
+    .banner-section{
+        width: 100%;
+        padding: 10px 0px 10px;
+    }
+    .banner-section .banner-text{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .banner-text p{
+        color: #fd511a;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 35px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .banner-text h1 span{
+        color: #21b573;
+    }
+    .banner-text p span{
+        color: #6c6b6b;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .banner-text .btn-success {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+        font-weight: 401;
+    }
+    .banner-text .btn-success:hover {
+        color: #21b573;
+        background-color: #fff;
+        border-color: #21b573;
+    }
+    .banner-text .btn{
+        padding: 12px 28px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    .banner-section .banner-img{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-img img{
+        
+    }
+    /* *****************************
+            slider-section
+        **************************** */
+    .slider-section{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .slider-section .slider-inner{
+        width: 100%;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .slider-section .slider-inner:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .slider-inner img{
+        width: 35px;
+        height: 45px;
+    }
+    .slider-inner h4{
+        color: #413960;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 0px 0px;
+    }
+    .slider-inner p{
+        color: #6c6b6b;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /* ******************************
+        online-courses
+        ********************* */
+    .online-courses{
+        width: 100%;
+        padding: 0px 0px 30px;
+        text-align: center;
+    }
+    .online-courses h1{
+        color: #413960;
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        text-align: center;
+        padding: 7px 0px 25px;
+    }
+    .online-courses .card-inner{
+        width: 100%;
+        padding: 16px;
+        border-radius: 10px;
+    }
+    .online-courses .card-inner:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-inner img{
+        padding: 0px 0px 30px;
+    }
+    .card-inner h2{
+        font-size: 25px;
+        line-height: 35px;
+        color: #413960;
+    }
+    .card-inner p{
+        color: #6c6b6b;
+    }
+    .card-inner .icofont-ui-calendar{
+        padding-right: 4px;
+    }
+    .card-inner .icofont-users-alt-4{
+        padding-right: 4px;
+    }
+    .card-inner .btn-success {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+    }
+    .card-inner .btn-success:hover {
+        color: #21b573;
+        background-color: #fff;
+        border-color: #21b573;
+    }
+    .card-inner .btn{
+        padding: 6px 20px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+    .card-inner .card-icon-left{
+        width: 100%;
+        padding: 8px 0px 8px 8px;
+    }
+    .card-inner .card-icon-right{
+        float: right;
+        width: 100%;
+        padding: 8px 0px 8px 8px;
+    }
+    .card-inner  a{
+        color: #6c6b6b;
+    }
+    /* ****************************
+        testominial
+    ********************* */
+    .testominial{
+        width: 100%;
+        padding: 10px 0px 50px;
+        text-align: center;
+    }
+    .testominial h1{
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        padding: 5px 0px 25px;
+        text-align: center;
+    }
+    .testominial p{
+        padding: 10px 0px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    /* *****************************
+    footer-section
+    ********************************** */
+    .footer-section{
+        width: 100%;
+        padding:10px 0px;
+        background-color: #282531;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-section .footer-weget{
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .footer-section .footer-weget a:hover{
+        color: #21b573;
+    }
+    .footer-section .main-footer{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+    /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+    */
+@media (min-width: 768px) and (max-width: 1024px) {
+            /* Main code start here */
+    .header-banner{
+        width: 100%;
+        padding: 10px 0px;
+        background-color: #f0fff0;
+    }
+    /* **************************
+            header-section-start 
+        ************************** */
+    .header-banner .header-section{
+        width: 100%;
+    }
+    .header-section .header-inner{
+        width: 100%;
+        padding: 10px 0px 10px;
+    }
+    .header-section .header-inner img{
+        width: 210px;
+    }
+    .header-section .header-inner .btn-success {
+        color: #000;
+        background-color: #f0fff0;
+        border-color: #f0fff0;
+        font-weight: 401;
+    }
+    .header-section .header-inner .btn-success:hover {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+    }
+    .header-section .header-inner .btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    /* **************************
+            banner-section-start 
+        **************************  */
+    .banner-section{
+        width: 100%;
+        padding: 20px 0px 50px;
+    }
+    .banner-section .banner-text{
+        width: 100%;
+    }
+    .banner-text p{
+        color: #fd511a;
+    }
+    .banner-text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner-text h1 span{
+        color: #21b573;
+    }
+    .banner-text p span{
+        color: #6c6b6b;
+        line-height: 30px;
+    }
+    .banner-text .btn-success {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+        font-weight: 401;
+    }
+    .banner-text .btn-success:hover {
+        color: #21b573;
+        background-color: #fff;
+        border-color: #21b573;
+    }
+    .banner-text .btn{
+        padding: 12px 28px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    .banner-section .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 500px;
+    }
+    /* *****************************
+            slider-section
+        **************************** */
+    .slider-section{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .slider-section .slider-inner{
+        width: 100%;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .slider-section .slider-inner:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .slider-inner img{
+        width: 80px;
+        height: 90px;
+    }
+    .slider-inner h4{
+        color: #413960;
+        font-size: 25px;
+        line-height: 35px;
+        padding: 30px 0px 0px;
+    }
+    .slider-inner p{
+        color: #6c6b6b;
+    }
+    /* ******************************
+        online-courses
+        ********************* */
+    .online-courses{
+        width: 100%;
+        padding: 0px 0px 30px;
+    }
+    .online-courses h1{
+        color: #413960;
+        font-size: 52px;
+        line-height: 62px;
+        font-weight: 700;
+        text-align: center;
+        padding: 10px 0px 25px;
+    }
+    .online-courses .card-inner{
+        width: 100%;
+        padding: 16px;
+        border-radius: 10px;
+    }
+    .online-courses .card-inner:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-inner img{
+        padding: 0px 0px 30px;
+    }
+    .card-inner h2{
+        font-size: 25px;
+        line-height: 35px;
+        color: #413960;
+    }
+    .card-inner p{
+        color: #6c6b6b;
+    }
+    .card-inner .icofont-ui-calendar{
+        padding-right: 4px;
+    }
+    .card-inner .icofont-users-alt-4{
+        padding-right: 4px;
+    }
+    .card-inner .btn-success {
+        color: #fff;
+        background-color: #21b573;
+        border-color: #21b573;
+    }
+    .card-inner .btn-success:hover {
+        color: #21b573;
+        background-color: #fff;
+        border-color: #21b573;
+    }
+    .card-inner .btn{
+        padding: 6px 24px;
+        font-size: 16px;
+        border-radius: 50px;
+    }
+    .card-inner .card-icon-left{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .card-inner .card-icon-right{
+        float: right;
+        width: 100%;
+        padding: 10px 0px 10px 10px;
+    }
+    .card-inner  a{
+        color: #6c6b6b;
+        font-size: 7px;
+    }
+    /* ****************************
+        testominial
+    ********************* */
+    .testominial{
+        width: 100%;
+        padding: 10px 0px 50px;
+    }
+    .testominial h1{
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: 700;
+        padding: 10px 0px 50px;
+        text-align: center;
+    }
+    .testominial img{
+        width: 120px;
+    }
+    .testominial p{
+        padding: 30px 0px;
+        font-size: 9px;
+        line-height: 19px;
+    }
+    /* *****************************
+    footer-section
+    ********************************** */
+    .footer-section{
+        width: 100%;
+        padding:10px 0px;
+        background-color: #282531;
+        color: #fff;
+    }
+    .footer-section .footer-weget{
+        width: 100%;
+        padding: 50px 0px;
+        font-size: 12px;
+    }
+    .footer-section .footer-weget a:hover{
+        color: #21b573;
+    }
+    .footer-section .main-footer{
+        width: 100%;
+        text-align: center;
+    }
+}
